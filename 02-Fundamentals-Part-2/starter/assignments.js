@@ -86,3 +86,98 @@
 // } else {
 //   console.log("No borders.");
 // }
+
+// Assignment Logical Operators
+
+// const language = "english";
+// const population = 30;
+// const isIsland = true;
+// const country = "Portugal";
+
+// if (language === "english" && population >= 30 && isIsland) {
+//   console.log(`You should live in ${country}`);
+// } else {
+//   console.log(`${country} does not meet your criteria`);
+// }
+
+// CODING CHALLENGE #3
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88, 91, 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//   console.log("Dolphins win!");
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log("It's a tie!");
+// } else {
+//   console.log("Koalas win!");
+// }
+
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 106) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log("Dolphins win!");
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log("Koalas win!");
+// } else if (
+//   scoreDolphins === scoreKoalas &&
+//   scoreDolphins >= 100 &&
+//   scoreKoalas >= 100
+// ) {
+//   console.log("It's a tie!");
+// } else {
+//   console.log("No one wins...");
+// }
+
+// Assignment Switch Statement
+
+// const language = "";
+
+// switch (language) {
+//   case "chinese":
+//   case "madarin":
+//     console.log("MOST number of native speakers!");
+//     break;
+//   case "spanish":
+//     console.log("2nd place in number of native speakers");
+//     break;
+//   case "english":
+//     console.log("3rd place");
+//     break;
+//   case "hindi":
+//     console.log("Number 4");
+//     break;
+//   case "arabic":
+//     console.log("5th most spoken language");
+//     break;
+//   default:
+//     console.log("Great language too!");
+// }
+
+// const population = 34;
+
+// console.log(
+//   `${
+//     population > 33
+//       ? "Canada's population is big"
+//       : "Canadas population is tiny"
+//   }`
+// );
+
+// // CLEANER FORMAT
+// const country = "Canada";
+// const population2 = 34;
+// console.log(
+//   `${country}'s population is ${population2 > 33 ? "above" : "below"} average`
+// );
+
+// CODING CHALLENGE #3
+
+// const bill = 275;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+// );
