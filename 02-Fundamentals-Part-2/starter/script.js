@@ -82,9 +82,103 @@ console.log(typeof null); // logged as bug - but it's not an object this is a bu
  const averageAge = (ageAlbert + ageAthena) / 2;
  console.log(ageAlbert, ageAthena, averageAge);  */
 
+// const firstName = "Albert";
+// const job = "programmer";
+// const birthYear = 1992;
+// const year = 2020;
 
+// const albert =
+//   "I'm " + firstName + " a " + (year - birthYear) + " year old " + job + "!";
+// console.log(albert);
 
+// const albertNew = `I'm ${firstName} a ${year - birthYear} year old ${job}!`;
+// console.log(albertNew);
 
+// console.log(`Just a regular string...`);
 
+// console.log("String with \n\
+// multiple \n\
+// lines");
 
+// console.log(`String
+// multiple
+// lines`);
 
+// const age = 12;
+
+// if (age >= 18) {
+//   console.log("Albert can start driving license ");
+// } else;
+// {
+//   const yearsLeft = 18 - age;
+//   console.log(`Albert is too young. Wait Another: ${yearsLeft} years.`);
+// }
+
+// const birthYear = 1992;
+
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+// Type Conversion
+// const inputYear = "1992";
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number("Albert")); // returns NaN
+// console.log(typeof NaN); // returns invalid number
+
+// console.log(String(23));
+
+// Type Coercion
+// console.log("I am " + 23 + " years old");
+// console.log("23" - "10" - 3);
+// console.log("23" * "2");
+// console.log("23" > "18");
+
+// let n = "1" + 1; // 11
+// n = n - 1;
+// console.log(n); // 10
+
+// console.log(Boolean(0)); // false
+// console.log(Boolean(undefined)); // false
+// console.log(Boolean("Albert")); // true
+// console.log(Boolean({})); // true
+
+// const money = 0; // returns false boolean since it's 0 (falsy)
+// if (money) {
+//   console.log("Don't spend it all");
+// } else {
+//   console.log("You should get a job!");
+// }
+
+// let height;
+// if (height) {
+//   console.log("YAY! Height is defined!");
+// } else {
+//   console.log("Height is UNDEFINED...");
+// }
+
+// const age = 18;
+// if (age === 18) console.log("You just became an adult");
+
+// const favourite = Number(prompt("What's your favourite number?")); // asks user
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 5) {
+//   // works since it's loose, use === and it won't work since it's a string
+//   console.log("Cool! 5 is an an amazing number!");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log("9 is cool as well");
+// } else {
+//   console.log("Number is not 5 or 7");
+// }
+
+// if (favourite !== 23) console.log("Why not 23?");

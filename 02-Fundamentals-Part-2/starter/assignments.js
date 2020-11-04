@@ -16,9 +16,9 @@
 // console.log(typeof language);
 
 // Assignment let, const and var
-// const language = 'English';
-// const country = 'Canada';
-// const continent = 'North America';
+// const language = "English";
+// const country = "Canada";
+// const continent = "North America";
 // let population = 15;
 // // language = 'German';
 // console.log(language);
@@ -48,9 +48,41 @@
 // // Exercise 2
 // const markBMI = markWeight / markHeight ** 2;
 // console.log(markBMI);
-// const johnBMI = johnWeight / johnHeight **2;
+// const johnBMI = johnWeight / johnHeight ** 2;
 // console.log(johnBMI);
 
 // // Exercise 3
 // const markHigherBMI = markBMI >= johnBMI;
 // console.log(markHigherBMI);
+
+// Assignment Strings and Template Literals
+// const descriptionNew = `${country} is in ${continent}, and its population of ${population} million people speak ${language}!`;
+// console.log(descriptionNew);
+
+// CODING CHALLENGE #2
+// let higherBMI;
+// if (markBMI >= johnBMI) {
+//   higherBMI = `Mark's BMI ${markBMI} is higher than John's ${johnBMI}! 💪`;
+// } else {
+//   higherBMI = `John's BMI is higher ${johnBMI}`;
+// }
+// console.log(higherBMI);
+
+// Assignment Type Conversion and Coercion
+// 1. 4
+// 2. 23
+// 3. 617
+// 4. false
+// 5. 1143
+
+// Assignment Equality Operators == VS ===
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?")
+// );
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border!");
+// } else {
+//   console.log("No borders.");
+// }
